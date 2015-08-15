@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<p id="some"></p><br>
+<p id="time"></p>
+</div>
+<script>
+
+var rob = function(nums) {
+	var even=0;
+	 var odd=0;
+	for(k=0;k<nums.length;k++)
+	{
+		if(k%2==0)
+		{
+			even=Math.max(even+nums[k],odd);
+		}
+		else
+		{
+			odd = Math.max(even,odd+nums[k]);
+		}
+	}
+	if(even>odd)
+		return even;
+	else return odd;
+};
+console.log(rob([2,1,1,2]));
+
+</script>
+</body>
+</html>

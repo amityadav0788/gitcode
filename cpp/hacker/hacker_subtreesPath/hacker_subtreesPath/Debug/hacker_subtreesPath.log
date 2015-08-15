@@ -1,0 +1,41 @@
+﻿Build started 3/14/2015 11:36:20 AM.
+     1>Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\hacker_subtreesPath\hacker_subtreesPath.vcxproj" on node 2 (rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\hacker_subtreesPath.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\hacker_subtreesPath.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\hacker_subtreesPath.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hacker_subtreesPath.cpp
+         hacker_subtreesPath.cpp
+     1>c:\users\a_k_yadav\documents\xtra\code_practice\hacker_subtreespath\hacker_subtreespath\hacker_subtreespath.cpp(12): warning C4005: 'INT_MIN' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\limits.h(40) : see previous definition of 'INT_MIN'
+     1>c:\users\a_k_yadav\documents\xtra\code_practice\hacker_subtreespath\hacker_subtreespath\hacker_subtreespath.cpp(23): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\a_k_yadav\documents\xtra\code_practice\hacker_subtreespath\hacker_subtreespath\hacker_subtreespath.cpp(25): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\a_k_yadav\documents\xtra\code_practice\hacker_subtreespath\hacker_subtreespath\hacker_subtreespath.cpp(40): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\a_k_yadav\documents\xtra\code_practice\hacker_subtreespath\hacker_subtreespath\hacker_subtreespath.cpp(20): warning C4101: 'Q' : unreferenced local variable
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hacker_subtreesPath.exe.embed.manifest.res" Debug\hacker_subtreesPath_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\Debug\hacker_subtreesPath.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hacker_subtreesPath.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\Debug\hacker_subtreesPath.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\Debug\hacker_subtreesPath.lib" /MACHINE:X86 Debug\hacker_subtreesPath.exe.embed.manifest.res
+         Debug\hacker_subtreesPath.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\hacker_subtreesPath.exe.embed.manifest".
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\hacker_subtreesPath.exe.embed.manifest" /manifest Debug\hacker_subtreesPath.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\hacker_subtreesPath.exe.embed.manifest.res" Debug\hacker_subtreesPath_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\Debug\hacker_subtreesPath.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hacker_subtreesPath.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\Debug\hacker_subtreesPath.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\Debug\hacker_subtreesPath.lib" /MACHINE:X86 Debug\hacker_subtreesPath.exe.embed.manifest.res
+         Debug\hacker_subtreesPath.obj
+         Debug\stdafx.obj
+         hacker_subtreesPath.vcxproj -> C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\Debug\hacker_subtreesPath.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\hacker_subtreesPath.unsuccessfulbuild".
+         Touching "Debug\hacker_subtreesPath.lastbuildstate".
+     1>Done Building Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_subtreesPath\hacker_subtreesPath\hacker_subtreesPath.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:38.90

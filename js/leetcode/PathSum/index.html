@@ -1,0 +1,58 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<p id="some"></p><br>
+<p id="time"></p>
+</div>
+<script>
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} this.root
+ * @param {number} sum
+ * @return {boolean}
+ */
+ function TreeNode(val) {
+     this.val = val;
+     this.left = this.right = null;
+	 
+	 this.addleftChild = function(node) {
+        this.left = node;
+		}
+	this.addrightChild = function(node)
+	{
+		this.right = node;
+    }
+}
+
+var root = new TreeNode(2);
+var temp = new TreeNode(3);
+this.root.addleftChild(temp);
+temp = new TreeNode(4);
+this.root.addrightChild(temp);
+
+function hasPathSum(root, sum) {
+    if (!root) return false;
+
+    if (!root.left && !root.right) { // check leaf
+        return sum === root.val;
+    } else { // continue DFS
+        return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
+    }
+};
+
+var hasPathSum = hasPathSum(this.root,7);
+
+if(hasPathSum)
+	document.getElementById("some").innerHTML = "Hello Amit.";
+else document.getElementById("time").innerHTML = "Bye Amit.";
+</script>
+</body>
+</html>

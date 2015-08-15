@@ -1,0 +1,29 @@
+﻿Build started 3/17/2015 11:50:13 AM.
+     1>Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_SherlockPair\hacker_SherlockPair\hacker_SherlockPair.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\hacker_SherlockPair.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\hacker_SherlockPair.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hacker_SherlockPair.cpp
+         hacker_SherlockPair.cpp
+     1>hacker_SherlockPair.cpp(15): warning C4005: 'INT_MIN' : macro redefinition
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\limits.h(40) : see previous definition of 'INT_MIN'
+     1>hacker_SherlockPair.cpp(37): warning C4244: 'initializing' : conversion from 'll' to 'unsigned int', possible loss of data
+     1>hacker_SherlockPair.cpp(57): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_SherlockPair\Release\hacker_SherlockPair.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\hacker_SherlockPair.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_SherlockPair\Release\hacker_SherlockPair.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_SherlockPair\Release\hacker_SherlockPair.lib" /MACHINE:X86 Release\hacker_SherlockPair.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         hacker_SherlockPair.vcxproj -> C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_SherlockPair\Release\hacker_SherlockPair.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_SherlockPair\Release\hacker_SherlockPair.exe;#1" /manifest Release\hacker_SherlockPair.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\hacker_SherlockPair.unsuccessfulbuild".
+         Touching "Release\hacker_SherlockPair.lastbuildstate".
+     1>Done Building Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\hacker_SherlockPair\hacker_SherlockPair\hacker_SherlockPair.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.78

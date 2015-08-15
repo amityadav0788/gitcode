@@ -1,0 +1,33 @@
+﻿Build started 3/25/2015 10:28:00 PM.
+     1>Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\gfg_TopologicalSort\gfg_TopologicalSort.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\gfg_TopologicalSort.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\gfg_TopologicalSort.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\gfg_TopologicalSort.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt gfg_TopologicalSort.cpp
+         gfg_TopologicalSort.cpp
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gfg_TopologicalSort.exe.embed.manifest.res" Debug\gfg_TopologicalSort_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\Debug\gfg_TopologicalSort.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gfg_TopologicalSort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\Debug\gfg_TopologicalSort.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\Debug\gfg_TopologicalSort.lib" /MACHINE:X86 Debug\gfg_TopologicalSort.exe.embed.manifest.res
+         Debug\gfg_TopologicalSort.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\gfg_TopologicalSort.exe.embed.manifest" /manifest Debug\gfg_TopologicalSort.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\gfg_TopologicalSort.exe.embed.manifest.res" Debug\gfg_TopologicalSort_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\Debug\gfg_TopologicalSort.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gfg_TopologicalSort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\Debug\gfg_TopologicalSort.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\Debug\gfg_TopologicalSort.lib" /MACHINE:X86 Debug\gfg_TopologicalSort.exe.embed.manifest.res
+         Debug\gfg_TopologicalSort.obj
+         Debug\stdafx.obj
+         gfg_TopologicalSort.vcxproj -> C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\Debug\gfg_TopologicalSort.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\gfg_TopologicalSort.unsuccessfulbuild".
+         Touching "Debug\gfg_TopologicalSort.lastbuildstate".
+     1>Done Building Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\gfg_TopologicalSort\gfg_TopologicalSort\gfg_TopologicalSort.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.68

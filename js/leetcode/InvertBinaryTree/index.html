@@ -1,0 +1,86 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<p id="some"></p><br>
+<p id="time"></p>
+</div>
+<script>
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} this.root
+ * @param {number} sum
+ * @return {boolean}
+ */
+ function TreeNode(val) {
+	var stack  =[];
+     this.val = val;
+     this.left = this.right = null;
+	 
+	 this.addleftChild = function(node) {
+        this.left = node;
+		}
+	this.addrightChild = function(node)
+	{
+		this.right = node;
+    }
+	
+	this.traverse = function(node)
+	{
+		if(node.left)
+		{
+			 this.traverse(node.left);
+		}
+		if(node.right)
+		{
+			this.traverse(node.right);
+		}
+		console.log(node.val);
+	}
+	
+};
+
+var root = new TreeNode(2);
+var temp = new TreeNode(3);
+this.root.addleftChild(temp);
+temp = new TreeNode(4);
+this.root.addrightChild(temp);
+
+var stack1 = [];
+var stack2=[];
+
+var invertTree = function(root) {
+    stack1.push(root);
+	while(stack1.length>=1)
+	{
+		var temp = stack1.pop();
+		stack2.push(temp);
+		if(temp.left)
+			stack1.push(temp.left);
+		if(temp.right)
+			stack1.push(temp.right);
+	}
+	while(stack2.length>=1)
+	{
+		var temp=staack2.pop();
+		if(temp.left || temp.right)
+		{
+			var temp2 = temp.left;
+			temp.left = temp.right;
+			temp.right = temp2;
+		}
+	}
+};
+
+this.root.traverse(root);
+
+</script>
+</body>
+</html>

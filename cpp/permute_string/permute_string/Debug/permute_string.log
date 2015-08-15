@@ -1,0 +1,36 @@
+﻿Build started 12/14/2014 7:53:56 PM.
+     1>Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\permute_string\permute_string\permute_string.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\permute_string.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\permute_string.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\permute_string.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\permute_string.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp permute_string.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         permute_string.cpp
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\A_K_Yadav\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\permute_string\Debug\permute_string.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\permute_string.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\permute_string\Debug\permute_string.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\permute_string.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         permute_string.vcxproj -> C:\Users\A_K_Yadav\Documents\xtra\code_practice\permute_string\Debug\permute_string.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\permute_string\Debug\permute_string.exe;#1" /manifest Debug\permute_string.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\permute_string.unsuccessfulbuild".
+         Touching "Debug\permute_string.lastbuildstate".
+     1>Done Building Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\permute_string\permute_string\permute_string.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:40.62

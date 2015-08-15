@@ -1,0 +1,25 @@
+﻿Build started 5/9/2015 12:54:37 PM.
+     1>Project "C:\Users\A_K_Yadav\Documents\xtra\portal\cpp\earth\iRageCapital_BruceChocolate\iRageCapital_BruceChocolate\iRageCapital_BruceChocolate.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\iRageCapital_BruceChocolate.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\iRageCapital_BruceChocolate.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iRageCapital_BruceChocolate.cpp
+         iRageCapital_BruceChocolate.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\A_K_Yadav\Documents\xtra\portal\cpp\earth\iRageCapital_BruceChocolate\Release\iRageCapital_BruceChocolate.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\iRageCapital_BruceChocolate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\A_K_Yadav\Documents\xtra\portal\cpp\earth\iRageCapital_BruceChocolate\Release\iRageCapital_BruceChocolate.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\A_K_Yadav\Documents\xtra\portal\cpp\earth\iRageCapital_BruceChocolate\Release\iRageCapital_BruceChocolate.lib" /MACHINE:X86 Release\iRageCapital_BruceChocolate.obj
+         Release\stdafx.obj
+         Generating code
+     1>c:\users\a_k_yadav\documents\xtra\portal\cpp\earth\iragecapital_brucechocolate\iragecapital_brucechocolate\iragecapital_brucechocolate.cpp(29): warning C4715: 'gcd' : not all control paths return a value
+         Finished generating code
+         iRageCapital_BruceChocolate.vcxproj -> C:\Users\A_K_Yadav\Documents\xtra\portal\cpp\earth\iRageCapital_BruceChocolate\Release\iRageCapital_BruceChocolate.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\A_K_Yadav\Documents\xtra\portal\cpp\earth\iRageCapital_BruceChocolate\Release\iRageCapital_BruceChocolate.exe;#1" /manifest Release\iRageCapital_BruceChocolate.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\iRageCapital_BruceChocolate.unsuccessfulbuild".
+         Touching "Release\iRageCapital_BruceChocolate.lastbuildstate".
+     1>Done Building Project "C:\Users\A_K_Yadav\Documents\xtra\portal\cpp\earth\iRageCapital_BruceChocolate\iRageCapital_BruceChocolate\iRageCapital_BruceChocolate.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.30

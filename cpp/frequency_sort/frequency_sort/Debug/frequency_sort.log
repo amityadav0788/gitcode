@@ -1,0 +1,30 @@
+﻿Build started 11/15/2014 7:28:22 PM.
+     1>Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\frequency_sort\frequency_sort\frequency_sort.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\frequency_sort.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\frequency_sort.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt frequency_sort.cpp /clr:nostdlib 
+         frequency_sort.cpp
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\frequency_sort\Debug\frequency_sort.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\frequency_sort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\frequency_sort\Debug\frequency_sort.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\frequency_sort.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         frequency_sort.vcxproj -> C:\Users\A_K_Yadav\Documents\xtra\code_practice\frequency_sort\Debug\frequency_sort.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\frequency_sort\Debug\frequency_sort.exe;#1" /manifest Debug\frequency_sort.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\frequency_sort.unsuccessfulbuild".
+         Touching "Debug\frequency_sort.lastbuildstate".
+     1>Done Building Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\frequency_sort\frequency_sort\frequency_sort.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:38.54

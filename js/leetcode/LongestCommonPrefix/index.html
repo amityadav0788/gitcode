@@ -1,0 +1,36 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<p id="some"></p><br>
+<p id="time"></p>
+</div>
+<script>
+
+var longestCommonPrefix = function(strs) {
+    var preFix = "";
+	if(strs.length>0)
+		preFix=strs[0];
+	for(i=1;i<strs.length;i++)
+	{
+		var tempPreFix="";
+		var Comp=strs[i];
+		for(j=0;j<preFix.length && j<Comp.length;j++)
+		{
+			if(preFix[j]==Comp[j])
+				tempPreFix+=preFix[j];
+			else
+			{
+				break;
+			}
+		}
+		preFix = tempPreFix;
+	}
+	return preFix;
+};
+console.log(longestCommonPrefix(["aa","a"]));
+
+</script>
+</body>
+</html>

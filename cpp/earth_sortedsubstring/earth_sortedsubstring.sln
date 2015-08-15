@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "earth_sortedsubstring", "earth_sortedsubstring\earth_sortedsubstring.vcxproj", "{C85D8DE0-37E8-4CB8-9309-D4BA16E4A9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C85D8DE0-37E8-4CB8-9309-D4BA16E4A9AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C85D8DE0-37E8-4CB8-9309-D4BA16E4A9AB}.Debug|Win32.Build.0 = Debug|Win32
+		{C85D8DE0-37E8-4CB8-9309-D4BA16E4A9AB}.Release|Win32.ActiveCfg = Release|Win32
+		{C85D8DE0-37E8-4CB8-9309-D4BA16E4A9AB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

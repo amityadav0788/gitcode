@@ -1,0 +1,38 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.*;
+public class OzGameMaxSelect {
+	public static void main(String[] args) throws Exception
+	{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String line = br.readLine();
+        int T = Integer.parseInt(line);
+        while(T!=0)
+        {
+        	String line1 = br.readLine();
+            int N = Integer.parseInt(line1);
+            ArrayList<Integer> input = new ArrayList<Integer>();
+        	String line2 = br.readLine();
+        	String[] inputstring = line2.split(" ");
+        	for(int i=0;i<N;i++)
+        	{
+        		input.add(Integer.parseInt(inputstring[i]));
+        	}
+        	Collections.sort(input);
+        	int first_sel = FirstSel(input,0,N);
+        	T--;
+        }
+	}
+	
+	private static int FirstSel(ArrayList<Integer> inp,int l,int r)
+	{
+		int m = (l+r)/2;
+		int returnval = -1;
+		if((inp.get(m) < inp.get(m+1)) && (inp.get(m) > inp.get(m-1)))
+			returnval = m;
+		else 
+		{
+			returnval = FirstSel(inp,l,m-1);
+		}
+	}
+}

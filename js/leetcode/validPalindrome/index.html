@@ -1,0 +1,39 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<p id="some"></p><br>
+<p id="time"></p>
+</div>
+<script>
+function palindrome(s) {
+	var original = s.replace(/[\s"'.,-\/#!$%\^&*;:{}=\-_`~()\\\[\]@+|?><]/g,"")
+    var len = original.length;
+	console.log(len);
+    if(len>0)
+    {
+        var i=0;
+        var j=len-1;
+		console.log(i+" "+j);
+        while(i<=j)
+        {
+			if(original[i]!=original[j])
+			{
+				return false;
+			}
+				i++;
+				j--;
+        }
+    }
+    return true;
+};
+
+var isPalindrome = palindrome("a.")
+
+if(isPalindrome)
+	document.getElementById("some").innerHTML = "Hello Amit.";
+else document.getElementById("time").innerHTML = "Bye Amit.";
+</script>
+</body>
+</html>

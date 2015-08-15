@@ -1,0 +1,30 @@
+﻿Build started 11/14/2014 8:51:49 AM.
+     1>Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\bst_impl\bst_impl\bst_impl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\bst_impl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\bst_impl.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt bst_impl.cpp /clr:nostdlib 
+         bst_impl.cpp
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\bst_impl\Release\bst_impl.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\bst_impl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\bst_impl\Release\bst_impl.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         Release\bst_impl.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         bst_impl.vcxproj -> C:\Users\A_K_Yadav\Documents\xtra\code_practice\bst_impl\Release\bst_impl.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\A_K_Yadav\Documents\xtra\code_practice\bst_impl\Release\bst_impl.exe;#1" /manifest Release\bst_impl.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\bst_impl.unsuccessfulbuild".
+         Touching "Release\bst_impl.lastbuildstate".
+     1>Done Building Project "C:\Users\A_K_Yadav\Documents\xtra\code_practice\bst_impl\bst_impl\bst_impl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:36.51

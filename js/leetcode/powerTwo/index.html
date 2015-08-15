@@ -1,0 +1,34 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<p id="some"></p><br>
+<p id="time"></p>
+</div>
+<script>
+function palindrome(n) {
+	if(n==0)
+		return false;
+	if(n==1)
+		return true;
+	var i=2;
+	while(n%i==0)
+	{
+		console.log(n);
+		n=n/i;
+		console.log(n);
+	}
+	if(n==1)
+		return true;
+	else return false;
+};
+
+var isPowerOfTwo = palindrome(2)
+
+if(isPowerOfTwo)
+	document.getElementById("some").innerHTML = "Hello Amit.";
+else document.getElementById("time").innerHTML = "Bye Amit.";
+</script>
+</body>
+</html>

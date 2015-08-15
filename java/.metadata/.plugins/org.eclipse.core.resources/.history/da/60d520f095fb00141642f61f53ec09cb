@@ -1,0 +1,24 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+public class OzGameMaxSelect {
+	public static void main(String[] args) throws Exception
+	{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String line = br.readLine();
+        int T = Integer.parseInt(line);
+        while(T!=0)
+        {
+        	String line1 = br.readLine();
+            int N = Integer.parseInt(line1);
+            int[] input = new int[N];
+        	String line2 = br.readLine();
+        	String[] inputstring = line2.split(" ");
+        	for(int i=0;i<N;i++)
+        	{
+        		input[i] = Integer.parseInt(inputstring[i]);
+        	}
+        	
+        	T--;
+        }
+	}
+}

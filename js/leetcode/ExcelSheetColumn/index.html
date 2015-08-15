@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<p id="some"></p><br>
+<p id="time"></p>
+</div>
+<script>
+
+var titleToNumber = function(s){
+	var len = s.length;
+	var num=0;
+	console.log(len);
+	var t=len;
+	for(j=0;j<len-1;j++)
+	{
+		var temp=(Math.pow(26,t-1))*(s.charCodeAt(j)-"A".charCodeAt(0)+1);
+		num+=temp;
+		t--;
+	}
+	num+=s.charCodeAt(len-1)-"A".charCodeAt(0)+1;
+	return num;
+}
+console.log(titleToNumber("AAA"));
+
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<p id="some"></p><br>
+<p id="time"></p>
+</div>
+<script>
+
+var summaryRange = function(nums){
+	var output=[];
+	//output+='[';
+	var i=0;
+	while(i<nums.length-1)
+	{
+		var start = i;
+		while(nums[i]===nums[i+1]-1)
+		{
+			i++;
+		}
+		var end = i;
+		if(start!=end)
+			output.push(nums[start]+'->'+(nums[end]));
+		else
+			output.push(nums[i].toString());
+		i++;
+	}
+	if(i<nums.length)
+		output.push(nums[i].toString());
+	return output
+}
+var input = [0,1,2,4,5,7];
+console.log(summaryRange(input));
+
+</script>
+</body>
+</html>

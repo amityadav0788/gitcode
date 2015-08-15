@@ -1,0 +1,12 @@
+String strings = "London";
+String service = "http://dbpedia.org/sparql";
+String query = "PREFIX dbo:<http://dbpedia.org/ontology/>"
+        + "PREFIX : <http://dbpedia.org/resource/>"
+        + "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#/>"
+        + "select ?URI where {?URI rdfs:label "+strings+".}";
+QueryExecution qe=QueryExecutionFactory.sparqlService(service, query);
+ResultSet rs = qe.execSelect();
+while (rs.hasNext()){
+    QuerySolution s= rs.nextSolution();
+    System.out.println(s.getResource("?URI").toString());
+}
