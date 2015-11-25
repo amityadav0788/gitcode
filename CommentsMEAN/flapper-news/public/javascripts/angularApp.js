@@ -16,11 +16,30 @@ app.factory('posts', ['$http','auth',function($http,auth){
     o.posts.push(data);
   });
 };
-o.upvote = function(post) {
+o.upvote = function(post,user) {
   return $http.put('/posts/' + post._id + '/upvote', null, {
     headers: {Authorization: 'Bearer '+auth.getToken()}
   }).success(function(data){
     post.upvotes += 1;
+	post.users.push(user);
+	console.log(user);
+	/*console.log(post.users);
+	console.log(auth.getToken());
+	console.log(auth.isLoggedIn());
+	console.log(data);*/
+  });
+};
+o.likedUser = function(post,user) {
+  return $http.put('/posts/' + post._id +'/users', user, {
+    headers: {Authorization: 'Bearer '+auth.getToken()}
+  }).success(function(data){
+    //post.upvotes += 1;
+	//post.users.push(user);
+	/*console.log(user);
+	console.log(post.users);
+	console.log(auth.getToken());
+	console.log(auth.isLoggedIn());*/
+	console.log(data);
   });
 };
 o.get = function(id) {
@@ -159,7 +178,12 @@ $scope.addPost = function(){
   $scope.link = '';
 };
 $scope.incrementUpvotes = function(post) {
-  posts.upvote(post);
+//posts.upvote(post)
+posts.upvote(post, {
+    user: auth.currentUser(),
+  }).success(function(user) {
+    //post.users.push(user);
+  });
 };
 }])
 .controller('PostsCtrl',[

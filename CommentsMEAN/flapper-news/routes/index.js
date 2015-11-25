@@ -55,6 +55,14 @@ router.put('/posts/:post/upvote', auth,function(req, res, next) {
   });
 });
 
+router.put('/posts/:post/users', auth,function(req, res, next) {
+  req.post.likedUser(function(err, post,req){
+    if (err) { return next(err); }
+
+    res.json(post);
+  });
+});
+
 router.post('/posts/:post/comments', auth,function(req, res, next) {
   var comment = new Comment(req.body);
   comment.post = req.post;

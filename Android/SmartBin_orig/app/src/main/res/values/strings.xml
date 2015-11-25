@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Smart Bin</string>
+    <string name="Fill_Levels_activity">Fill Level</string>
+    <string name="fill_trend">Fill Trend</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh"></string>
+    <string name="action_settings">Settings</string>
+    <string name="search_loc_hint">Search</string>
+    <string name="action_export">Export</string>
+</resources>

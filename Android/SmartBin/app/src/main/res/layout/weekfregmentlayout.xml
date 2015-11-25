@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_id1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:capitalize="characters"
+        android:text="Location"
+        android:layout_centerVertical="true"
+        android:background="#FF0000"
+        android:textSize="50dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/temp1"/>
+        <TextView
+            android:id="@+id/logonFormBTLogon3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="n C"
+            android:layout_weight="0.5" />
+
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:src="@drawable/drop"/>
+        <TextView
+            android:id="@+id/logonFormBTLogon4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="X%"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:id="@+id/graph" />
+
+</LinearLayout>

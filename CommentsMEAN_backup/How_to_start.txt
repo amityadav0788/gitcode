@@ -1,0 +1,6 @@
+1. install nodejs
+2. install mongodb
+3. goto flapper-news and install "npm install"
+4. run mongodb by "C:\Program Files\MongoDB\server\3.0\bin\mongod.exe --dbpath C:\data\xtra\code_portal\gitcode\CommentsMean\flapper-news\models"
+5. now run in flapper-news "npm start".
+6. connect on localhost:3000

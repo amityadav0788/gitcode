@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollViewAnalysisFillLevels"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_weight="2">-->
+
+        <!--<ListView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:id="@+id/compareBins">-->
+
+            <!--<CheckBox-->
+                <!--android:id="@+id/chkIos"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="trial" />-->
+
+        <!--</ListView>-->
+
+    <!--</ScrollView>-->
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/compareBins"
+        android:layout_weight="1">
+    </ListView>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/radio_fill_trend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fill_trend"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/radio_tbd1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TBD"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_tbd2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TBD"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_tbd3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TBD"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+    </ScrollView>
+    <!--<ListView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:id="@+id/compareBins">-->
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/chkIos"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="trial" />-->
+
+    <!--</ListView>-->
+
+
+
+</LinearLayout>

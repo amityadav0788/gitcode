@@ -16,6 +16,8 @@ var users = require('./routes/users');
 var mongoose = require('mongoose');
 var passport = require('passport');
 
+//require('node-monkey').start({host: "127.0.0.1", port:"50500"});
+
 mongoose.connect('mongodb://localhost/news');
 var app = express();
 // view engine setup

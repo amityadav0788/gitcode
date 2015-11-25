@@ -1,0 +1,5 @@
+C:\data\xtra\code_portal\gitcode\Freelancer\ASP_NET\StudentRecord\StudentRecord\bin\StudentRecord.dll
+C:\data\xtra\code_portal\gitcode\Freelancer\ASP_NET\StudentRecord\StudentRecord\bin\StudentRecord.pdb
+C:\data\xtra\code_portal\gitcode\Freelancer\ASP_NET\StudentRecord\StudentRecord\obj\Debug\StudentRecord.csprojResolveAssemblyReference.cache
+C:\data\xtra\code_portal\gitcode\Freelancer\ASP_NET\StudentRecord\StudentRecord\obj\Debug\StudentRecord.dll
+C:\data\xtra\code_portal\gitcode\Freelancer\ASP_NET\StudentRecord\StudentRecord\obj\Debug\StudentRecord.pdb

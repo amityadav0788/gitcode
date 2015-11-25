@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Smart Bin</string>
+    <string name="Fill_Levels_Fragment">Fill Level</string>
+    <string name="Map_Fragment">Bins Location</string>
+    <string name="Map_Route">Optimal Route</string>
+    <string name="Analysis_Fragment">Analysis</string>
+    <string name="fill_trend">Fill Trend</string>
+    <string name="humidity_trend">Humidity Trend</string>
+    <string name="temperature_trend">Temperature Trend</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh"></string>
+    <string name="action_settings">Settings</string>
+    <string name="search_loc_hint">Search</string>
+    <string name="action_export">Export</string>
+    <string name="pick_date1">From</string>
+
+    <string name="pick_date2">To</string>
+    <string name="title_activity_bin_details">Bin Details</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+</resources>

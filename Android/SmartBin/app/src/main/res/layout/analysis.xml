@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/analysisActivity"
+    android:label="@string/Analysis_Fragment" >
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="275dp"
+        android:id="@+id/compareBinsList"
+        android:layout_weight="1">
+    </ListView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pick_date1"
+                android:onClick="showDatePickerDialog" />
+
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="250dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:editable="false" >
+            </EditText>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pick_date2"
+                android:onClick="showDatePickerDialog" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="250dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:editable="false" >
+            </EditText>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/radio_fill_trend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fill_trend"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton android:id="@+id/radio_tbd1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/temperature_trend"
+                android:onClick="onRadioButtonClicked"
+                android:checked="false" />
+            <RadioButton android:id="@+id/radio_tbd2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/humidity_trend"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+    </ScrollView>
+    <!--<ListView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:id="@+id/compareBins">-->
+
+    <!--<CheckBox-->
+    <!--android:id="@+id/chkIos"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="trial" />-->
+
+    <!--</ListView>-->
+
+
+
+</LinearLayout>
